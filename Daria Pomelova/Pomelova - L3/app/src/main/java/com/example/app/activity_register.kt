@@ -37,7 +37,6 @@ class activity_register : AppCompatActivity() {
                     binding.TVErrorr.visibility = View.VISIBLE
                     binding.TVErrorr.text = text + "The mail must consist of at least 7 characters and contain the '@' character."
                 }
-
             }
         }
 
