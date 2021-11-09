@@ -8,7 +8,7 @@ import com.example.app.databinding.ActivityLoginBinding
 
 class activity_login : AppCompatActivity() {
     lateinit var binding: ActivityLoginBinding
-    var Validator = Validator()
+    var validator = Validator()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

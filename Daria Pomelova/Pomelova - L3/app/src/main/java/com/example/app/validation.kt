@@ -10,11 +10,11 @@ class Validator {
         return result
     }
 
-    fun email_restriction(Email: String): Boolean{
+    fun email_restriction(email: String): Boolean{
         var result = false
-        if(Email.length >= 7)
+        if(email.length >= 7)
             result = true
-        if (Email.contains("@"))
+        if (email.contains("@"))
             result = true
         return result
     }
