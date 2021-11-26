@@ -20,7 +20,8 @@ class RegistrationActivity : AppCompatActivity() {
             binding.regTextInputName.error = valid.validateName(name)
             binding.regTextInputEmail.error = valid.validateEmail(email)
             binding.regTextInputPasswordEnter.error = valid.validatePassword(password)
-            binding.regTextInputPasswordConfirm.error = valid.validateIdenticalPassword(password, repeatedPassword)
+            binding.regTextInputPasswordConfirm.error =
+                valid.validateIdenticalPassword(password, repeatedPassword)
             if (binding.regTextInputEmail.error.isNullOrBlank() &&
                 binding.regTextInputPasswordEnter.error.isNullOrBlank() &&
                 binding.regTextInputPasswordConfirm.error.isNullOrBlank() &&
