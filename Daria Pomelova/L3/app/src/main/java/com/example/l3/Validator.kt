@@ -18,7 +18,7 @@ class Validator(private val context: Context) {
             else -> null
         }
     }
-    fun validateIdenticalPassword(pass1: String, pass2: String): String? {
+    fun vaconfirmedPassword(pass1: String, pass2: String): String? {
         return when {
             pass1.isBlank() -> context.getString(R.string.error_emptiness)
             pass2.isBlank() -> context.getString(R.string.error_emptiness)

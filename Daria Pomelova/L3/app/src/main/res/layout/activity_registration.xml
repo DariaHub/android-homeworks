@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/regTextWelcome"
+        android:id="@+id/imageRegistrationBot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="98dp"
@@ -29,16 +29,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/regTextTask"
+        android:id="@+id/textRegistrationDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="@string/registration_greeting_hint"
         android:textColor="@color/black"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/regTextWelcome"
-        app:layout_constraintStart_toStartOf="@+id/regTextWelcome"
-        app:layout_constraintTop_toBottomOf="@+id/regTextWelcome" />
+        app:layout_constraintEnd_toEndOf="@+id/textRegistrationTitle"
+        app:layout_constraintStart_toStartOf="@+id/textRegistrationTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textRegistrationTitle" />
 
     <TextView
         android:id="@+id/regTextAcc"

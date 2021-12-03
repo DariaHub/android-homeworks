@@ -8,7 +8,7 @@
     tools:context=".HomeActivity">
 
     <ImageView
-        android:id="@+id/profImageBackground"
+        android:id="@+id/imageHomeBackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/profImage"
+        android:id="@+id/imageHomeAvatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="87dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/iconExit"
+        android:id="@+id/imageHomeExit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="51dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/profTextWelcome"
+        android:id="@+id/imageTextWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -52,9 +52,9 @@
         android:text="@string/home_greeting"
         android:textColor="@color/black"
         android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="@+id/profImage"
-        app:layout_constraintStart_toStartOf="@+id/profImage"
-        app:layout_constraintTop_toBottomOf="@+id/profImage" />
+        app:layout_constraintEnd_toEndOf="@+id/imageHomeAvatar"
+        app:layout_constraintStart_toStartOf="@+id/imageHomeAvatar"
+        app:layout_constraintTop_toBottomOf="@+id/imageHomeAvatar" />
 
 
     <TextView
