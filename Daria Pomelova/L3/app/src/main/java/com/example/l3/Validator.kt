@@ -18,11 +18,11 @@ class Validator(private val context: Context) {
             else -> null
         }
     }
-    fun vaconfirmedPassword(pasword: String, confirmedPassword: String): String? {
+    fun passwordConfirmation(password: String, confirmedPassword: String): String? {
         return when {
-            pasword.isBlank() -> context.getString(R.string.error_emptiness)
+            password.isBlank() -> context.getString(R.string.error_emptiness)
             confirmedPassword.isBlank() -> context.getString(R.string.error_emptiness)
-            pasword != confirmedPassword -> context.getString(R.string.error_coincidence_password)
+            password != confirmedPassword -> context.getString(R.string.error_coincidence_password)
             else -> null
         }
     }
