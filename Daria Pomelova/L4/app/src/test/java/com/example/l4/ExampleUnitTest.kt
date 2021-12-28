@@ -1,6 +1,5 @@
 package com.example.l4
 
-import org.junit.Assert
 import org.junit.Test
 
 /**
