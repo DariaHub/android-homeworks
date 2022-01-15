@@ -11,10 +11,10 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
         val received = intent.extras?.getString("Email")
         val fragment = supportFragmentManager.findFragmentById(binding.profileHomeFragment.id) as
-              ProfileHomeFragment
+            ProfileHomeFragment
         fragment.email = received
         binding.bottomNavigationViewHome.setOnItemSelectedListener { menu ->
-              when (menu.itemId) {
+            when (menu.itemId) {
                 R.id.menuFragmentHomeProfile -> {
                     supportFragmentManager
                         .beginTransaction()
