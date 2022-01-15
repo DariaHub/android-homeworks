@@ -1,5 +1,7 @@
-package com.example.myapplication
+package com.example.l4
 import android.content.Context
+import com.example.myapplication.R
+
 class Validator(private val context: Context) {
     fun checkEmail(email: String): String? {
         return when {

@@ -2,8 +2,6 @@ package com.example.l4
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.HomeActivity
-import com.example.myapplication.Validator
 import com.example.myapplication.databinding.ActivityRegistrationBinding
 class RegistrationActivity : AppCompatActivity() {
     lateinit var binding: ActivityRegistrationBinding

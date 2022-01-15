@@ -12,7 +12,7 @@
         android:fullBackupContent="true">
 
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.l4.HomeActivity"
             android:exported="true"/>
 
         <activity

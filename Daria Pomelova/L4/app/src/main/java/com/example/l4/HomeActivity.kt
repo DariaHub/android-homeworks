@@ -1,7 +1,7 @@
-package com.example.myapplication
+package com.example.l4
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.l4.TasksListHomeFragment
+import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityHomeBinding
 class HomeActivity : AppCompatActivity() {
     lateinit var binding: ActivityHomeBinding
@@ -11,7 +11,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
         val received = intent.extras?.getString("Email")
         val fragment = supportFragmentManager.findFragmentById(binding.profileHomeFragment.id) as
-            ProfileHomeFragment
+                ProfileHomeFragment
         fragment.email = received
         binding.bottomNavigationViewHome.setOnItemSelectedListener { menu ->
             when (menu.itemId) {
