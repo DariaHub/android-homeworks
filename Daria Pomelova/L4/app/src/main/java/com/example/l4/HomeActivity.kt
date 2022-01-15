@@ -14,7 +14,7 @@ class HomeActivity : AppCompatActivity() {
                 ProfileHomeFragment
         fragment.email = received
         binding.bottomNavigationViewHome.setOnItemSelectedListener { menu ->
-            when (menu.itemId) {
+        when (menu.itemId) {
                 R.id.menuFragmentHomeProfile -> {
                     supportFragmentManager
                         .beginTransaction()
